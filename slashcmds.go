@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 	"github.com/mattn/go-shellwords"
 )
 

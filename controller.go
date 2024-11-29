@@ -36,7 +36,7 @@ import (
 	listers "github.com/argoproj/argo-workflows/v3/pkg/client/listers/workflow/v1alpha1"
 	"gopkg.in/yaml.v2"
 
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/runtime"

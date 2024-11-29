@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 	"go.starlark.net/starlark"
 	"k8s.io/client-go/kubernetes/scheme"
 

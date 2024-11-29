@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	argoScheme "github.com/argoproj/argo-workflows/v3/pkg/client/clientset/versioned/scheme"
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 	"go.starlark.net/starlark"
 	"k8s.io/client-go/kubernetes/scheme"
 )

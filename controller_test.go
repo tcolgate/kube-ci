@@ -13,7 +13,7 @@ import (
 	workflowfake "github.com/argoproj/argo-workflows/v3/pkg/client/clientset/versioned/fake"
 	informers "github.com/argoproj/argo-workflows/v3/pkg/client/informers/externalversions"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

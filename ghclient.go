@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 )
 
 type repoClient struct {
@@ -185,7 +185,7 @@ func (r *repoClient) CreateFile(ctx context.Context, filepath string, opts *gith
 }
 
 func (r *repoClient) GetBranch(ctx context.Context, branch string) (*github.Branch, error) {
-	gbranch, _, err := r.client.Repositories.GetBranch(ctx, r.org, r.repo, branch, true)
+	gbranch, _, err := r.client.Repositories.GetBranch(ctx, r.org, r.repo, branch, 4)
 	return gbranch, err
 }
 

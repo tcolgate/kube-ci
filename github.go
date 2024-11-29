@@ -7,7 +7,7 @@ import (
 	"regexp"
 
 	"github.com/bradleyfalzon/ghinstallation/v2"
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 )
 
 type GithubClientInterface interface {

@@ -123,7 +123,7 @@ func (sm *K8sStorageManager) ensurePVC(
 	}
 
 	spec := corev1.PersistentVolumeClaimSpec{
-		Resources: corev1.ResourceRequirements{
+		Resources: corev1.VolumeResourceRequirements{
 			Requests: corev1.ResourceList{
 				corev1.ResourceStorage: res,
 			},

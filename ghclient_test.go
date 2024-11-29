@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/go-github/v45/github"
+	"github.com/google/go-github/v67/github"
 )
 
 type repoContentKey struct {
