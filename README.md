@@ -4,6 +4,8 @@ kube-ci builds on argo, and the github API, to provide CI/CD workflows. The
 design goal is to provide as much feedback and support directly via the github
 API, rather than through other interfaces.
 
+NOTE: This is a detached fork of the origin dev repo at QubitProducts/kube-ci
+
 # What's here
 
 The code is still work-in-progress but has seen extensive use for a few years now.

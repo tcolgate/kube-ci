@@ -15,7 +15,7 @@
 package main
 
 import (
-	kubeci "github.com/QubitProducts/kube-ci"
+	kubeci "github.com/tcolgate/kube-ci"
 )
 
 func main() {

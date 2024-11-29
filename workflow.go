@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/QubitProducts/kube-ci/cistarlark"
+	"github.com/tcolgate/kube-ci/cistarlark"
 	workflow "github.com/argoproj/argo-workflows/v3/pkg/apis/workflow/v1alpha1"
 	"github.com/google/go-github/v45/github"
 	"go.starlark.net/starlark"

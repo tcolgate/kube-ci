@@ -1054,7 +1054,7 @@ func TestLabelSafe(t *testing.T) {
 	var tests = []struct {
 		strs []string
 	}{
-		{[]string{"QubitProducts", "kube-ci", "", "master", "kube-ci.master"}},
+		{[]string{"tcolgate", "kube-ci", "", "master", "kube-ci.master"}},
 		{[]string{"ERBC-96-post-release-stripping-of-locale-null-from-the-db"}},
 		{[]string{"ERBC-967post-release-stripping-of-locale-null-from-the-db"}},
 	}
@@ -1079,8 +1079,8 @@ func TestLabelSafe(t *testing.T) {
 }
 
 func FuzzLabelSafe(f *testing.F) {
-	f.Add("QubitProducts")
-	f.Add("QubitProducts,something")
+	f.Add("tcolgate")
+	f.Add("tcolgate,something")
 	f.Add("ERBC-96-post-release-stripping-of-locale-null-from-the-db")
 
 	f.Fuzz(func(t *testing.T, str string) {

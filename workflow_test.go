@@ -21,13 +21,13 @@ func TestWFName(t *testing.T) {
 
 		expected string
 	}{
-		{"QubitProducts", "kube-ci", "", "master", "kube-ci.master"},
+		{"tcolgate", "kube-ci", "", "master", "kube-ci.master"},
 		{"qubitdigital", "atom-api", "", "ERBC-96-post-release-stripping-of-locale-null-from-the-db", "atom-api.erbc-96-post-release-stripping"},
-		{"QubitProducts", "kube-ci", "deploy", "master", "kube-ci.deploy.master"},
-		{"QubitProducts", "kube-ci", "deploy:migrations", "master", "kube-ci.deploy-migratio.master"},
+		{"tcolgate", "kube-ci", "deploy", "master", "kube-ci.deploy.master"},
+		{"tcolgate", "kube-ci", "deploy:migrations", "master", "kube-ci.deploy-migratio.master"},
 		{"myorg", "myrepo", "", "user-project-1234-some-really-long-branch-namme-from-some-dirt-bag-issue-tracking-system", "myrepo.user-project-1234-some-really-lon"},
-		{"QubitProdcts", "quite-long-repo-name", "", "user-project-1234-some-really-long-branch-namme-from-some-dirt-bag-issue-tracking-system", "quite-long-repo-name.user-project-1234-s"},
-		{"QubitProdcts", "quite-long-repo-name", "deploy:migrations", "user-project-1234-some-really-long-branch-namme-from-some-dirt-bag-issue-tracking-system", "quite-long-repo.deploy-migratio.user-pro"},
+		{"tcolgate", "quite-long-repo-name", "", "user-project-1234-some-really-long-branch-namme-from-some-dirt-bag-issue-tracking-system", "quite-long-repo-name.user-project-1234-s"},
+		{"tcolgate", "quite-long-repo-name", "deploy:migrations", "user-project-1234-some-really-long-branch-namme-from-some-dirt-bag-issue-tracking-system", "quite-long-repo.deploy-migratio.user-pro"},
 	}
 	for i, tt := range tests {
 		tt := tt

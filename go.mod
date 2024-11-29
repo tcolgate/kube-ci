@@ -1,4 +1,4 @@
-module github.com/QubitProducts/kube-ci
+module github.com/tcolgate/kube-ci
 
 require (
 	github.com/argoproj/argo-workflows/v3 v3.4.7
@@ -78,6 +78,8 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-go 1.20
+go 1.23.0
+
+toolchain go1.23.2
 
 replace github.com/go-git/go-git/v5 => github.com/argoproj-labs/go-git/v5 v5.4.4
